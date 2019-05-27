@@ -114,7 +114,7 @@ public class StringTraining {
      * @param string, ie: "test"
      * @return the string with the first character in upper case, ie: "Test"
      */
-    public static String firstUpper(String string) {
+    public static String capitalize(String string) {
 
         String s1 = string.substring(0, 1).toUpperCase();
         String sS = s1 + string.substring(1);
